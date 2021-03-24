@@ -1,0 +1,18 @@
+.picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture__image {
+  height: 40em;
+  object-fit: contain;
+}
+
+.picture__description {
+  padding: 30px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}

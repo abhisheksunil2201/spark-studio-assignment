@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+.app {
+  font-family: "Roboto", sans-serif;
+}
+
+.app__heading {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .app__heading {
+    width: 150%;
+  }
+}

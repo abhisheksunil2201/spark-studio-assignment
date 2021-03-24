@@ -1,0 +1,34 @@
+.topbar {
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar__search {
+  display: flex;
+}
+
+.topbar__search > input,
+.topbar__search > input:focus {
+  padding: 10px;
+  border: none;
+  background-color: #e4e4e4;
+  outline: none;
+  width: 20em;
+}
+
+.topbar__searchButton {
+  background-color: #e4e4e4;
+  border: none;
+  padding: 10px;
+  margin-left: 1em;
+}
+
+@media (max-width: 800px) {
+  .topbar {
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 130%;
+  }
+}
