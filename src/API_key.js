@@ -4,7 +4,7 @@ export const Apicontext = createContext();
 
 export const Apiprovider = (props) => {
   //PASTE YOUR API KEY BELOW
-  const apikey = "SgpGtsSWUVq7qfGNp5NkCasB4hnuZao71RMaNywh";
+  const apikey = "";
   return (
     <Apicontext.Provider value={apikey}>{props.children}</Apicontext.Provider>
   );
